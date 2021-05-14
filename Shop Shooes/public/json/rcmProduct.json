@@ -1,0 +1,33 @@
+[
+    {
+    "ProductId":0,
+    "type": "cake"
+    }, {
+    "ProductId":1,
+    "type": "cake"
+    },{
+    "ProductId":2,
+    "type": "cake"
+    }, {
+    "ProductId":3,
+    "type": "cake"
+    }, {
+    "ProductId":4,
+    "type": "cake"
+    }, {
+    "ProductId": 17,
+    "type": "drink"
+    }, {
+    "ProductId": 18,
+    "type": "drink"
+    }, {
+    "ProductId": 19,
+    "type": "drink"
+    }, {
+    "ProductId": 25,
+    "type": "tea"
+    }, {
+    "ProductId": 26,
+    "type": "tea"
+    }
+]

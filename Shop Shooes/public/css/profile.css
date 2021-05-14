@@ -1,0 +1,30 @@
+.background{
+    width: 900px; 
+    height: 320px;
+}
+
+.avatar{
+    width: 230px; 
+    height: 235px; 
+    position: relative; 
+    top: -100px;
+    z-index: 2;
+}
+
+.username{
+    position: relative; 
+    top: -80px; 
+    font-size: 50px;
+}
+
+.inputRow{
+    padding: 5px;
+}
+
+.inputField{
+    padding: 15px;
+}
+
+input[type="text"]:disabled {
+    background: rgb(247, 255, 224);
+}

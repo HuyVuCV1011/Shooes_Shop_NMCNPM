@@ -1,0 +1,215 @@
+.product-infor_prices {
+    background-color:whitesmoke;
+}
+
+.product-infor_prices-real {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.addr-info_addr {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.addr-info_change {
+    color: rgb(61, 96, 137);
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.addr-info_change:hover {
+    text-decoration: underline;
+}
+
+/* .add-cart {
+    border: 1px solid black;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn-order {
+    max-height: 50px;
+}
+
+#content {
+    min-height: 500px;
+}
+
+.setTableDefault{
+    padding: 0px;
+    margin: 0px;
+}
+
+.setBorderDefault{
+    padding: 20px 40px;
+    margin: 30px 10px;
+    border: 1px solid lightgrey;
+}
+
+.tableColor{
+    background-color: rgb(228, 226, 226);
+}
+
+.star-rating{
+    width: 100%;
+    height: 460px;
+    padding: 20px 40px;
+    margin: 30px 10px;
+    border: 1px solid lightgrey;
+}
+
+.rotateStar{
+    transform: rotateY(180deg);
+    margin: 50px 60px 0px 0px;
+}
+
+.star-rating input{
+    display: none;
+}
+
+.star-rating label{
+    font-size: 80px;
+    color: lightgray;
+    transition: all 0.4s ease;
+}
+
+.starLightColor{
+    color: rgb(250, 250, 92);
+    text-shadow: 0 0 5px rgb(172, 42, 19);
+    font-size: 45px;
+}
+
+.starUnlightColor{
+    color: lightgray;
+    text-shadow: 0 0 5px black;
+    font-size: 45px;
+}
+
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label{
+    color: rgb(250, 250, 92);
+    text-shadow: 0 0 15px rgb(177, 125, 85);
+}
+
+.star-rating input:checked ~ label{
+    color: rgb(250, 250, 92);
+    text-shadow: 0 0 15px rgb(172, 42, 19);
+}
+
+.imgUser{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.chart{
+    width: 600px;
+    height: 300px;
+    display: block;
+    padding-top: 30px;
+}
+
+.chartBackground{
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: rgb(209, 231, 238);
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgb(187, 71, 18);
+    border-radius: 10px;
+}
+
+.chartBackground li{
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.chartBackground span{
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    text-align: center; 
+}
+
+.chartBackground .columns{
+    display: block;
+    background: rgb(250, 250, 92);
+    box-shadow: 0 0 10px 0 rgb(187, 71, 18);
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    bottom: 70px;
+    left: 23px;
+}
+
+.chartBackground .columns:before{
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+
+#w3review {
+    width: 80%;
+}
+
+.product-infor__btn-order {
+    margin-top: 5px;
+    max-width: 170px;
+}
+
+#qtyField {
+    min-width: 70px;
+}
+
+.numbers {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    height: 120%;
+    float: left;
+    display: inline;
+}
+
+.numbers li{
+    list-style: none;
+    height: 150px;
+    height: 105px;
+    position: relative;
+}
+
+.numbers span{
+    position: absolute;
+    right: 10px;
+}
+
+.total{
+    position: relative;
+    left: 130px;
+}
+
+.tableRate{
+    position: relative;
+    left: 170px;
+}

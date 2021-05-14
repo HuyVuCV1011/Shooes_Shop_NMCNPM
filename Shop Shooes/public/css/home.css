@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.bgColor{
+    background: linear-gradient(to right,rgb(217, 230, 233),rgb(168, 236, 216), rgb(211, 231, 122), rgb(236, 222, 19));
+}
+
+html {
+    min-width: 980px;
+    width: 100%;
+}
+
+body {
+    min-width: 980px;
+    width: 100%;
+}
+
+header, footer{
+    background: linear-gradient(to right,rgb(217, 230, 233),rgb(168, 236, 216), rgb(211, 231, 122), rgb(236, 222, 19));
+    border-color: black;
+}
+
+footer {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-item {
+    display: flex;
+    justify-content: center;
+    background-color: peru;
+    border: solid 3px black;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+
+.active{
+    background-color: yellowgreen;
+}
+
+header a{
+     text-decoration: none;
+     font-weight: bold;
+     color: black;
+     font-size: 18px;
+}
+
+.left-item:hover , .right-item:hover, #rp-btn:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.left-item:active , .right-item:active, #rp-btn:active {
+    color: black;
+    background-color: yellowgreen;    
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.link_nav{
+    position: relative;
+}
+
+.search-box{
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search-button{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.search-field{
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+.icon{
+    color: rgb(94, 205, 50);
+}
+
+.right-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 187, 131);
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 3px black !important;
+    right: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button {
+    background-color: none;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 11px;
+    
+}
+
+#rp-btn {
+    border-radius:20px;
+    height: 90%;
+    font-weight: bold;
+    background-color: rgb(243, 187, 131);
+    font-size: 11px;
+    border: solid 3px black;
+}
+
+.title-bseller{
+    background: linear-gradient(to right,rgb(217, 230, 233),rgb(168, 236, 216), rgb(211, 231, 122), rgb(236, 222, 19));
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+ /* .option {
+    font-weight: bold;
+ }
+
+ .option:hover {
+    background: linear-gradient(to right,rgb(235, 35, 28),rgb(236, 189, 128), rgb(217, 238, 123), rgb(180, 236, 143));
+    color : white;
+ }
+
+ .option:active {
+    background: linear-gradient(to right,rgb(131, 20, 16),rgb(138, 94, 36), rgb(107, 121, 48), rgb(57, 112, 21));
+    color:white;
+ } */
+
+ i {
+     font-size: 20px;
+ }
+
+ .formColor{
+    background: rgb(252, 246, 246);
+}
+
+.btn-menu {
+    width: 200px !important;
+}
+
+.best_seller {
+    cursor: pointer;
+}
+
+.badge-top {
+    position: relative;
+    margin-left: 80%;
+    margin-top: -60% !important;
+}
+
+.icon-link {
+    cursor: pointer;
+}
+
+.icon-link:hover {
+    color: aliceblue;
+}
+
+.ads_left {
+    position:fixed;
+    top: 170px;
+    left: -10px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0);
+}
+
+.ads_right {
+    float: right;
+    position:fixed;
+    top: 170px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0);
+}
+
+.ads_img{
+    width: 150px;
+    height: 400px;
+}
+
+.close_ads_left{
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.close_ads_right{
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
