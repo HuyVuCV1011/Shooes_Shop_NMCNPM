@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TMThanh7217/TeaCake.git"
+    "url": "git+https://github.com/HuyVuCV1011/Shooes_Shop_NMCNPM"
   },
   "author": "TeaCake Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TMThanh7217/TeaCake/issues"
+    "url": "https://github.com/HuyVuCV1011/Shooes_Shop_NMCNPM/issues"
   },
-  "homepage": "https://github.com/TMThanh7217/TeaCake#readme"
+  "homepage": "https://github.com/HuyVuCV1011/Shooes_Shop_NMCNPM#readme"
 }
